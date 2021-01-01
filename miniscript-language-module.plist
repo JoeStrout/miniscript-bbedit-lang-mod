@@ -93,6 +93,33 @@
 		<string></string>
 		<key>Terminator for Prototypes 2</key>
 		<string></string>
+		<key>Function Pattern</key>
+		<string><![CDATA[
+			^(?P<function>
+					(?P<function_name>[a-zA-Z0-9_\.]+)
+					(?: *)=(?: *)function
+					(?s:.+?)
+					^end function
+			)
+		  ]]></string>
+		<key>Comment Pattern</key>
+		<string><![CDATA[
+			(?x:
+				(//.*?$)
+			)
+			]]></string>
+		<key>String Pattern</key>
+		<string><![CDATA[
+			(?x:
+				(".*")
+			)
+			]]></string>
+		<key>Skip Pattern</key>
+		<string><![CDATA[
+		(?x:
+			(?P>comment) |
+			(?P>string)
+		)]]></string>
 	</dict>
 </dict>
 </plist>
