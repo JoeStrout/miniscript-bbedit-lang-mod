@@ -80,6 +80,7 @@
 		<array>
 			<string>if</string>
 			<string>while</string>
+			<string>for</string>
 			<string>function</string>
 		</array>
 		<key>Open Strings 1</key>
