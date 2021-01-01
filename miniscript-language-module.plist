@@ -95,11 +95,13 @@
 		<string></string>
 		<key>Function Pattern</key>
 		<string><![CDATA[
-			^(?P<function>
+			(?x:
+				^(?P<function>
 					(?P<function_name>[a-zA-Z0-9_\.]+)
-					(?: *)=(?: *)function
+					(?:\ *)=(?:\ *)function
 					(?s:.+?)
-					^end function
+					^end\ function
+				)
 			)
 		  ]]></string>
 		<key>Comment Pattern</key>
