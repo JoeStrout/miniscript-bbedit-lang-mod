@@ -3,11 +3,7 @@
 
 This is a syntax coloring language module for BBEdit for use when editing a MiniScript source file.
 
-To install, simply place the miniscript-language-module.plist file (or a symlink to it) inside the following folder:
-
-`~/Library/Application Support/BBEdit/Language Modules/`
-
-If the "Language Modules" folder does not exist, you need to create it.
+To install, select "Language Modules" from the BBEdit menu, Folders submenu.  That will open the Language Modules folder in the Finder.  Drag the miniscript-language-module.plist file into this folder, and restart BBEdit.
 
 To use it when editing a MiniScript file, simply change the language popup menu in the lower left corner of the BBEdit window to "MiniScript" and the syntax coloring should take effect.
 
