@@ -52,6 +52,8 @@
 			<string>.miniscript</string>
 		</dict>
 	</array>
+	<key>BBLMCommentLineDefault</key>
+	<string>//</string>
 	<key>Language Features</key>
 	<dict>
 		<key>Close Block Comments</key>
